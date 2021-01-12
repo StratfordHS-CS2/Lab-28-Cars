@@ -1,4 +1,4 @@
-# Lab-28-Cars
+# Lab 28 - Cars
 
 In this lab you will be using inheritance to create a basic Car as well as more specialized cars based using the base class of Car.
 
