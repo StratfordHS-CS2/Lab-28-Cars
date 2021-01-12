@@ -1,13 +1,15 @@
 '''
 This is the class that defines a generic Car.
-
-Constructor:
-Needs to accept parameters for make, model, and year.  Set the properties of the Car appropriately.
-
-Methods:
-There needs to be a method named 'drive' that does not accept parameters.  All it does is print a generic message that the car is driving.
-
-Create a __str__ method that prints the characteristics of this car.
 '''
+
 class Car:
-  pass
+  def __init__(self, make='', model='', year=''):
+    self.make = make
+    self.model = model
+    self.year = year
+  
+  def drive(self):
+    print("The car is driving")
+
+  def __str__(self):
+    return 'This is a ' + self.year + ' ' + self.make + ' ' + self.model
