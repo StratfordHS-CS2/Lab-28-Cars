@@ -1,2 +1,7 @@
 # Lab-28-Cars
-Using inheritance in Python OOP to make multiple versions of cars.
+
+In this lab you will be using inheritance to create a basic Car as well as more specialized cars based using the base class of Car.
+
+Follow the instructions in the 4 .py files to create the Car class, the ICE (Internal Combustion Engine) subclass, the Electric subclass, and test them all in the main.py program.
+
+There are no tests; I will be testing this manually.
